@@ -20,7 +20,7 @@ const Sidebar = ({fullName , avatar,email}:Props) => {
         <Link href="/">
                 <div className='flex flex-row justify-center items-center'>
                     <Image src="/logo2.png" alt="logo" width={60} height={60} className='hidden h-auto lg:block' /> 
-                    <h1 className='h1 font-serif ml-1 hidden h-auto lg:block'>Storage</h1>
+                    <h1 className='h1 font-serif ml-1 hidden h-auto lg:block'>Store it</h1>
                 </div>
                 <Image src="/logo2.png" alt='logo' width={52} height={52} className='lg:hidden'/>
         </Link>
